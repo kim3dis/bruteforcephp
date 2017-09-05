@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#counter {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+.btnStart {
+  border: solid 2px #6494AA;
+  border-radius: 6px;
+  background: none;
+  color: #151515;
+  height: 35px;
+  width: 64px;
+  font-size: 16px;
+}
+.btnReset {
+  border: solid 2px #6494AA;
+  border-radius: 6px;
+  background: none;
+  color: #151515;
+  height: 35px;
+  width: 64px;
+  font-size: 16px;
+}
+.btnPause {
+  border: solid 2px #6494AA;
+  border-radius: 6px;
+  background: none;
+  color: #151515;
+  height: 35px;
+  width: 64px;
+  font-size: 16px;
+}
+.btns {
+  margin-top: -35px;
+}
