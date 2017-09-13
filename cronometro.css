@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body {
+  font-family: ubuntu;
+  background-color: #62cdf9;
+
+}
+
+
+#counter {
+  font-size: 40px;
+  font-family: sans-serif;
+
+}
+.counter {
+  margin-top: -30px;
+}
+
+.btnStart {
+  border: solid 2px #6494AA;
+  border-radius: 6px;
+  background: none;
+  color: #151515;
+  height: 35px;
+  width: 64px;
+  font-size: 16px;
+}
+.btnReset {
+  border: solid 2px #6494AA;
+  border-radius: 6px;
+  background: none;
+  color: #151515;
+  height: 35px;
+  width: 64px;
+  font-size: 16px;
+}
+.btnPause {
+  border: solid 2px #6494AA;
+  border-radius: 6px;
+  background: none;
+  color: #151515;
+  height: 35px;
+  width: 64px;
+  font-size: 16px;
+}
+.btns {
+  margin-top: -35px;
+}
+
+
+.fundo {
+  margin: 0;
+  padding: 0;
+  font: 100% sans-serif;
+  background-color: #62cdf9;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  top: 0;
+  padding: 3em;
+  background-size: cover;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.janela {
+  border-radius: 30px;
+  width:1000px;
+  height:600px;
+  /*background: #EFEFEF;*/
+  background: #5e595f;
+  color: #5e595f;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -300px;
+  box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.3);
+}
+
+.quadro_right {
+  background: #5e595f;
+  color: #efefef;
+  border: solid 0px #000;
+  width: 500px;
+  float: right;
+  z-index: 1;
+  border-top-right-radius: 30px;
+}
+.quadro_right2{
+  background: #5e595f;
+  color: #efefef;
+  width: 500px;
+  height: 465px;
+  border-bottom-right-radius: 30px;
+  float: right;
+  position: relative;
+  margin-top: -465px;
+}
+
+.quadro_left {
+  background: #EFEFEF;
+  margin-top: 30px;
+  margin-left: 5px;
+  overflow:scroll;
+  width:496px;
+  height:530px;
+  float:left;
+   z-index: -1;
+}
+.quadro_leftBG {
+  background: #EFEFEF;
+  width: 500px;
+  height: 600px;
+  margin-top: -175px;
+  margin-left: 1px;
+  float:left;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.palavras_quadroRight2 {
+  margin-left: 20px;
+}

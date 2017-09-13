@@ -28,6 +28,7 @@ include "config.php";
     <div>
       <a href="#" class="showhide_more">
         <img src="img/more.png" height="20px" />
+        
       </a>
     </div>
 
